@@ -1,0 +1,32 @@
+.button {
+    min-height: 59px;
+    padding: 0 28px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #111111;
+    background: var(--color-accent);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+
+    &--dark {
+        color: #ffffff;
+        background: #242424;
+        border-color: #383838;
+    }
+
+    &--accent {
+        background: var(--color-accent);
+    }
+
+    &--wide {
+        width: 100%;
+        color: #ffffff;
+        background: #242424;
+        border-color: #2e2e2e;
+    }
+}

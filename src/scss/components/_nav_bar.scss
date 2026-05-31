@@ -1,0 +1,28 @@
+.nav {
+    &__list {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    &__link {
+        min-height: 55px;
+        padding: 0 22px;
+        display: inline-flex;
+        align-items: center;
+        color: #ffffff;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    &__link:hover,
+    .page-home &__link--home,
+    .page-services &__link--services,
+    .page-work &__link--work,
+    .page-process &__link--process,
+    .page-about &__link--about,
+    .page-careers &__link--careers {
+        background: #242424;
+    }
+}

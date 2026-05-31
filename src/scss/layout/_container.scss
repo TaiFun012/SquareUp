@@ -1,0 +1,4 @@
+.site-container {
+    width: min(100% - 40px, var(--container));
+    margin: 0 auto;
+}

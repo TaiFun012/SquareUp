@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Contact | SquareUp</title>
+</head>
+<body class="page-contact">
+    @@include('../components/header.html')
+    <main>
+        @@include('../components/_page_top.html', {
+            "title": "Contact Us",
+            "text": "Get in touch with us today and let us help you with any questions or inquiries you may have."
+        })
+        @@include('../components/_contact_info.html')
+        @@include('../components/_contact_form.html')
+    </main>
+    @@include('../components/_footer.html')
+</body>
+</html>
